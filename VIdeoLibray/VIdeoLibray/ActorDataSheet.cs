@@ -52,7 +52,6 @@ namespace VIdeoLibray
                 {
                     //Set the selected movie details
                     string responseData = await response.Content.ReadAsStringAsync();
-                    // Console.WriteLine("Response " + responseData);
                     var obj = JsonConvert.DeserializeObject<RootObject>(responseData);
                     name = obj.name;
                     biography = obj.biography;
