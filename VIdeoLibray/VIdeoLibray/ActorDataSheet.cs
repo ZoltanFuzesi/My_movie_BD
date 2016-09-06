@@ -72,7 +72,7 @@ namespace VIdeoLibray
         private void setDetails()
         {
 
-            Console.WriteLine("Name " + name + " BirthDay " + birthday + " deathday " + deathday + " place of birth " + place_of_birth + " home page " + homepage + " biography " + Boigraphy + " picture " + profile_path);
+            
             string url = "http://image.tmdb.org/t/p/w500" + profile_path;
             textBox1.Text = name;
             textBox2.Text = birthday;
